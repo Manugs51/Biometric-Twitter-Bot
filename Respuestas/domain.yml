@@ -1,0 +1,86 @@
+intents:
+  - saludo
+  - proposito
+  - creadores
+  - recursos
+  - mas_informacion
+  - legislacion
+  - preguntas
+  - aleatorio
+
+actions:
+- utter_saludo
+- utter_decir_proposito
+- utter_decir_creadores
+- utter_decir_recursos
+- utter_decir_mas_informacion
+- utter_decir_legislacion
+- utter_decir_posibles_preguntas
+- utter_decir_no_relacionado
+
+templates:
+  utter_saludo:
+  - text: "Hola! no dudes en preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Hola! adelante, preguntame lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Hola! estoy impaciente de responderte\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Hola! puedes preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Ey! no dudes en preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Ey! adelante, preguntame lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Ey! estoy impaciente de responderte\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Ey! puedes preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Qué tal? no dudes en preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Qué tal? adelante, preguntame lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Qué tal? estoy impaciente de responderte\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Qué tal? puedes preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Buenas! no dudes en preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Buenas! adelante, preguntame lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Buenas! estoy impaciente de responderte\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+  - text: "Buenas! puedes preguntarme lo que quieras\n\n\nTambién puedes meterte en mi web para más información https://elp42019.wixsite.com/biometricdata/"
+
+  utter_decir_proposito:
+  - text: "Mi labor es hacer más accesible información relacionada con los datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi labor es responder a las preguntas relacionadas con datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi labor es informar sobre datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi labor es arrojar luz sobre los datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi trabajo es hacer más accesible información relacionada con los datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi trabajo es responder a las preguntas relacionadas con datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi trabajo es informar sobre datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Mi trabajo es arrojar luz sobre los datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Me dedico a hacer más accesible información relacionada con los datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Me dedico a responder a las preguntas relacionadas con datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Me dedico a informar sobre datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Me dedico a arrojar luz sobre los datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  - text: "Intentaré responderte a las preguntas que me hagas relacionadas con datos biométricos\n\n\nTodo lo que sé lo puedes encontrar en https://elp42019.wixsite.com/biometricdata/"
+  
+  utter_decir_creadores:
+  - text: "Los realizadores del proyecto de divulgación de datos biométricos son:\n- Raúl Diego Navarro\n- Ricardo Cabrera Lozada\n- Salvador Albarrán Tiradas\n- Antonio Rodríguez Hurtado\n- Alexandru Florian Cosmineanu\n- Manuel María Guerrero Serrano"
+
+  utter_decir_recursos:
+  - text: "Puedes encontrar todas nuestras fuentes en: https://elp42019.wixsite.com/biometricdata/enlaces-de-interes\n\nDestacado (inglés): https://www.biometricupdate.com\n\nDestacado: https://www.biometricupdate.com/biometric-news"
+  - text: "Todos los recursos están en: https://elp42019.wixsite.com/biometricdata/enlaces-de-interes\n\nDestacado (inglés): https://www.biometricupdate.com\n\nDestacado: https://www.biometricupdate.com/biometric-news"
+  - text: "Encontrarás enlaces de interés en: https://elp42019.wixsite.com/biometricdata/enlaces-de-interes\n\nDestacado (inglés): https://www.biometricupdate.com\n\nDestacado: https://www.biometricupdate.com/biometric-news"
+
+  utter_decir_mas_informacion:
+  - text: "Puedes obtener más información en https://elp42019.wixsite.com/biometricdata"
+  - text: "Pásate por https://elp42019.wixsite.com/biometricdata para saber más"
+  - text: "Pásate por https://elp42019.wixsite.com/biometricdata para descubrir más"
+  - text: "Puedes echar un ojo a https://elp42019.wixsite.com/biometricdata si te interesa"
+  - text: "Puedes echarle un ojo a https://elp42019.wixsite.com/biometricdata para saber más"
+  - text: "En https://elp42019.wixsite.com/biometricdata encontrarás mucha más información"
+  - text: "Obtendrás información más detallada en https://elp42019.wixsite.com/biometricdata"
+
+  utter_decir_legislacion:
+  - text: "En el RGPD los datos biométricos se incluyen en una categoría especial. Sólo pueden tratarse si es estrictamente necesario o si das tu consentimiento explícito\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/asuntos-legales"
+  - text: "El artículo 9 del RGPD mete los datos biométricos en una categoría especial. Sólo pueden tratarse si es estrictamente necesario o si das tu consentimiento explícito\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/asuntos-legales"
+  - text: "Los datos biométricos entran en una categoría especial a nivel legal. Sólo pueden tratarse si es estrictamente necesario o si das tu consentimiento explícito\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/asuntos-legales"
+
+  utter_decir_posibles_preguntas:
+  - text: "Me puedes preguntar por:\n- Cómo se legislan los datos biométricos\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
+  - text: "De momento, en lo relativo a datos biométricos, sé responder preguntas sobre:\n- Cómo se legisla\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
+  - text: "Podemos conversar sobre:\n- Cómo se legislan los datos biométricos\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
+  - text: "Para interactuar conmigo me puedes saludar :)\nTambién, en lo referido a datos biométricos, sé algo sobre:\n- Cómo se legisla\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
+
+  utter_decir_no_relacionado:
+  - text: "De momento no sé responder a esa pregunta, pero puedes entrar a https://elp42019.wixsite.com/biometricdata/ y quizá encuentres ahí esa información"
+  - text: "Creo que no te pillo... Pero puedes entrar en https://elp42019.wixsite.com/biometricdata/ y ver si encuentras lo que buscas"
+  - text: "Lo siento, pero no sé a qué te refieres. Entra en https://elp42019.wixsite.com/biometricdata/ y puede que encuentres lo que buscas"
