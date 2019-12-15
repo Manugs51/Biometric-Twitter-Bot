@@ -93,6 +93,12 @@
 - me gustaria saber que te puedo preguntar
 - que mas te puedo preguntar
 - que preguntas te puedo hacer
+- que preguntas puedo hacer
+- que pregunta puedo hacer
+- que pregunta te puedo hacer
+- cual pregunta te puedo hacer
+- cuales preguntas te puedo hacer
+- que tipo de preguntas te puedo hacer
 - que otras preguntas te puedo hacer
 - que mas preguntas te puedo hacer
 - me gustaria preguntarte mas
@@ -147,6 +153,11 @@
 - riesgos
 - seguridad
 - hay casos de fraude
+- como de seguros son
+- como de seguro es
+- como de seguro son
+- como de peligrosos son
+- como de peligroso es
 
 ## intent:casos_particulares
 - dame algun ejemplo de uso de datos biometricos
