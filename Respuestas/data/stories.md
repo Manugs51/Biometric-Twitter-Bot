@@ -29,3 +29,19 @@
 ## preguntar no relacionado
 * aleatorio
   - utter_decir_no_relacionado
+
+## preguntar que son
+* que_son
+  - utter_decir_que_son
+
+## preguntar cuales son
+* cuales_son
+  - utter_decir_cuales_son
+
+## preguntar peligros
+* peligros
+  - utter_decir_peligros
+
+## preguntar casos particulares
+* casos_particulares
+  - utter_decir_casos_particulares

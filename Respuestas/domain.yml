@@ -7,6 +7,10 @@ intents:
   - legislacion
   - preguntas
   - aleatorio
+  - que_son
+  - cuales_son
+  - casos_particulares
+  - peligros
 
 actions:
 - utter_saludo
@@ -17,6 +21,10 @@ actions:
 - utter_decir_legislacion
 - utter_decir_posibles_preguntas
 - utter_decir_no_relacionado
+- utter_decir_que_son
+- utter_decir_cuales_son
+- utter_decir_casos_particulares
+- utter_decir_peligros
 
 templates:
   utter_saludo:
@@ -75,12 +83,29 @@ templates:
   - text: "Los datos biométricos entran en una categoría especial a nivel legal. Sólo pueden tratarse si es estrictamente necesario o si das tu consentimiento explícito\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/asuntos-legales"
 
   utter_decir_posibles_preguntas:
-  - text: "Me puedes preguntar por:\n- Cómo se legislan los datos biométricos\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
-  - text: "De momento, en lo relativo a datos biométricos, sé responder preguntas sobre:\n- Cómo se legisla\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
-  - text: "Podemos conversar sobre:\n- Cómo se legislan los datos biométricos\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
-  - text: "Para interactuar conmigo me puedes saludar :)\nTambién, en lo referido a datos biométricos, sé algo sobre:\n- Cómo se legisla\n- Mis recursos\n- Más información\n- Mis creadores\n- Mi función"
+  - text: "Me puedes preguntar por:\n- Qué son los datos biométricos\n- Cuáles lo son\n- Cómo se legislan\n- Cómo de seguros son\n- Algún caso particular\n- Mis fuentes\n- Mi función\n- Mis creadores\n- Más información"
+  - text: "En lo relativo a datos biométricos, sé responder preguntas sobre:\n- Qué son\n- Cuáles lo son\n- Cómo se legislan\n- Cómo de seguros son\n- Algunos casos particulares\n- Mis fuentes\n- Mi función\n- Mis creadores\n- Más información"
+  - text: "Podemos conversar sobre:\n- Qué son los datos biométricos\n- Cuáles lo son\n- Cómo se legislan\n- Cómo de seguros son\n- Algún caso particular\n- Mis fuentes\n- Mi función\n- Mis creadores\n- Más información"
+  - text: "Puedes saludarme! :)\nTambién, sé algo sobre:\n- Qué son los datos biométricos\n- Cuáles lo son\n- Cómo se legislan\n- Cómo de seguros son\n- Algún caso particular\n- Mis fuentes\n- Mi función\n- Mis creadores\n- Más información"
 
   utter_decir_no_relacionado:
   - text: "De momento no sé responder a esa pregunta, pero puedes entrar a https://elp42019.wixsite.com/biometricdata/ y quizá encuentres ahí esa información"
   - text: "Creo que no te pillo... Pero puedes entrar en https://elp42019.wixsite.com/biometricdata/ y ver si encuentras lo que buscas"
   - text: "Lo siento, pero no sé a qué te refieres. Entra en https://elp42019.wixsite.com/biometricdata/ y puede que encuentres lo que buscas"
+
+  utter_decir_que_son:
+  - text: "Los datos biométricos son aquellos datos personales referidos a características físicas, fisiológicas o conductuales de una persona que posibilitan su identificación única"
+  - text: "Los datos biométricos son los datos personales referidos a características físicas, fisiológicas o conductuales de una persona que posibilitan su identificación única. Suelen tener la caractéristica de no cambiar con el tiempo" 
+  - text: "Los datos biométricos son los que aseguran identificar a una persona. Son aquellos relativos a características físicas, fisiológicas o de conducta.\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/que-son-los-datos-biometricos-1"
+  - text: "Los datos biométricos son aquellos asociados a una persona y que sean de carácter único y permanente, ya sean físicos o de comportamiento.\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/que-son-los-datos-biometricos-1"
+  
+  utter_decir_cuales_son:
+  - text: "Los elementos que proporcionan datos biométricos son la huella dactilar, la cara, el iris, la retina, la mano, las venas del brazo o tu voz\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/copia-de-tipos-de-datos-biometricos-1"
+  - text: "Entre los métodos de obtener de datos biométricos están:\n- Escáner de huella dactilar\n- Reconocimiento facial\n- Reconocimiento del iris y retina\n- Reconocimiento de la geometría de la mano\n- Reconocimiento vascular\n- Reconocimiento de voz"
+
+  utter_decir_casos_particulares:
+  - text: "La EMT desarrolla un sistema en el que registrarse con la cara y se paga automáticamente al entrar al autobús gracias a la integración de cámaras en los vehiculos https://elp42019.wixsite.com/biometricdata/reconocimiento-facial-emt"
+  - text: "Los países miembros de la Unión Europea tendrán acceso a una base de datos biométricos unificada, la tercera más grande del mundo.\n\nPara saber más: https://elp42019.wixsite.com/biometricdata/bases-de-datos-europa"
+  
+  utter_decir_peligros:
+  - text: "Los datos biométricos pueden ser robados de la misma manera que cualquier otro tipo de datos, pero los primeros son mucho más sensibles\n\nPara más información: https://elp42019.wixsite.com/biometricdata/fraude-pagos-con-datos-biometricos"

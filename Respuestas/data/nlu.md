@@ -46,6 +46,7 @@
 - de donde obteneis la informacion
 - donde obteneis la informacion
 - cuales son vuestras fuentes
+- cuales son tus fuentes
 - que fuentes utilizais
 - de donde obtienes los datos
 - donde obtienes los datos
@@ -73,6 +74,7 @@
 
 ## intent:legislacion
 - que hay del tema legal
+- que hay del tema legal sobre datos biometricos
 - que pasa con el tema legal
 - que dice la ley
 - que dice la legislacion
@@ -82,6 +84,9 @@
 - que dice la ley al respecto
 - es legal
 - es ilegal
+- que dice la ley sobre los datos biometricos
+- que dice la ley al respecto de los datos biometricos
+- como protege la ley los datos biometricos
 
 ## intent:preguntas
 - que te puedo preguntar
@@ -102,3 +107,54 @@
 - quien es el presidente
 - quien va a ganar el partido
 - cuando va a salir la nueva pelicula
+
+## intent:que_son
+- que son los datos biometricos
+- a que te refieres con datos biometricos
+- que quieres decir con datos biometricos
+- que significa datos biometricos
+- que quiere decir datos biometricos
+- explicame que son los datos biometricos
+- cuentame que son los datos biometricos
+- dime que son los datos biometricos
+- que implica que un dato sea biometrico
+- que hace que un dato sea biometrico
+- que se entiende por datos biometricos
+
+## intent:cuales_son
+- que datos son biometricos
+- que datos entran en la categoria de biometricos
+- cuales datos son biometricos
+- que tipo de datos son biometricos
+- que tipos de datos son biometricos
+- que tipos de datos se consideran biometricos
+- que tipo de datos se consideran biometricos
+- cuales son los datos biometricos
+- dime algunos datos que sean biometricos
+
+## intent:peligros
+- son seguros
+- son seguros los datos biometricos
+- son peligrosos
+- son peligrosos los datos biometricos
+- que riesgos hay
+- que riesgos tienen los datos biometricos
+- que peligros implican
+- que problemas pueden traer
+- que problemas puede haber
+- peligros
+- problemas
+- riesgos
+- seguridad
+- hay casos de fraude
+
+## intent:casos_particulares
+- dame algun ejemplo de uso de datos biometricos
+- dime algun ejemplo de uso de datos biometricos
+- se usan en españa datos biometricos
+- se usan en europa datos biometricos
+- se usan en madrid datos biometricos
+- usa la emt datos biometricos
+- casos particulares de datos biometricos
+- casos especificos de datos biometricos
+- dime casos especificos de datos biometricos
